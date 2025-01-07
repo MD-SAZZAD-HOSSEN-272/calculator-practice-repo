@@ -1,0 +1,56 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: pink;
+    display: flex;
+    justify-content: center;
+}
+.main {
+    background: linear-gradient(red, tomato);
+    margin-top: 25vh;
+    border-radius: 20px;
+    overflow: hidden;
+}
+ #input {
+    width: 100%;
+    background: rgb(211, 78, 78);
+    outline: none;
+    border: 0;
+    height: 50px;
+    font-size: 30px;
+    padding: 10px 20px;
+}
+.keys {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 10px;
+    margin: 10px 10px;
+    margin-left: 45px;
+}
+.keys button {
+    height: 60px;
+    width: 60px;
+    font-size: 20px;
+    font-weight: bold;
+    border-radius: 50%;
+    border: 0;
+    cursor: pointer;
+}
+.keys button:hover {
+    background: pink;
+}
+.keys button:active {
+    background: rgb(100, 96, 96);
+}
+.keys #btn {
+    background: rgb(247, 230, 2);
+}
+.keys #btn:hover {
+    background: greenyellow;
+}
+.keys #btn:active {
+    background: rgb(117, 158, 55);
+}
+
+
